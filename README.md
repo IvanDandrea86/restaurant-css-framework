@@ -32,7 +32,7 @@ you can finde the pdf varsion in the repository.
 ## Pallete Color
 ---
 I used this color pallet  
-https://colorhunt.co/palette/e7dec8cbaf877e8a9730475e
+https://colorhunt.co/palette/288fb41d556fefddb2fa360a
 
 ## Image
 ---
