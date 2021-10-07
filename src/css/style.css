@@ -32,6 +32,9 @@
     border: solid 1px #ffc107;
 }
 
+
+/* General */
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
@@ -40,7 +43,8 @@ body {
 .back_image {
     background-image: url("../img/bckimg.jpg");
     background-position: left;
-    background-size: contain;
+    /* background-size: contain; */
+    background-size: cover;
 }
 
 .link-menu {
@@ -82,14 +86,28 @@ body {
 .cardimg {
     align-self: center;
     padding-top: 16px;
-    width: 80%;
+    width: 30%;
     height: 60%;
 }
 
 .galleryimg {
+    border: 2px solid #343a40;
+    background-color: #ffc107;
     align-self: center;
-    width: 80%;
-    height: 100%;
+    width: 350px;
+    height: 500px;
+    box-shadow: 5px 10px 18px #111111;
+    margin: 5px;
+}
+
+.galleryimg_hori {
+    border: 2px solid #343a40;
+    background-color: #ffc107;
+    align-self: center;
+    width: 500px;
+    height: 350px;
+    box-shadow: 5px 10px 18px #111111;
+    margin: 5px;
 }
 
 .cornice {
@@ -125,8 +143,8 @@ body {
 }
 
 .menu-section {
-    margin-left: 20px;
-    padding-left: 15px;
+    margin: 20px;
+    padding: 15px;
 }
 
 .dish-content {
@@ -135,7 +153,7 @@ body {
 }
 
 .dish-element {
-    font-size: 12px;
+    font-size: 10px;
     text-transform: uppercase;
     display: block;
     width: 210px;
@@ -165,4 +183,6 @@ body {
     padding-top: 10px;
 }
 
-.article_cont {}
+.article_cont {
+    font-size: medium;
+}
