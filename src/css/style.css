@@ -56,9 +56,13 @@ body {
 
 .galleryimg {
     align-self: center;
-    padding: 16px 8px;
     width: 80%;
     height: 100%;
+}
+
+.cornice {
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 
