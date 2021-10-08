@@ -113,6 +113,14 @@ body {
     box-shadow: 5px 10px 18px #111111;
     margin: 5px;
 }
+.posterimg {
+    border: 2px solid #343a40;
+    background-color: #ffc107;
+    box-shadow: 5px 10px 18px #111111;
+    margin: 5px;
+
+
+}
 
 .galleryimg_hori {
     border: 2px solid #343a40;
