@@ -61,6 +61,20 @@ body {
     color: #343a40;
     border-radius: 5px;
 }
+.link-button {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 32px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.link-button:hover {
+    background-color: #ffc107;
+    color: #343a40;
+    border-radius: 5px;
+}
 
 #logo {
     width: 50px;
@@ -86,8 +100,8 @@ body {
 .cardimg {
     align-self: center;
     padding-top: 16px;
-    width: 30%;
-    height: 60%;
+    width: 500px;
+    height: 350px;
 }
 
 .galleryimg {
